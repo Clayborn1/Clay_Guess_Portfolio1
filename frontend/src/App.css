@@ -1,7 +1,19 @@
-/* .homeVideo {
-    height: 100%;
-}
 .jumbotron {
-    background-image: url('/src/images/20190527_120223.jpg');
-    background-size: cover;
-} */
+    background-color: transparent;
+    color: white;
+}
+.jumbotron .display-3 {
+    font-family: cursive, Lucida;
+}
+.video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  /* .container {
+      background-image: url("/src/images/20190527_120223.jpg");
+  } */
